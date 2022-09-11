@@ -1,0 +1,118 @@
+body{background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+    
+    .main{
+        position: relative;
+         width: 100%;
+          max-width: 1000px;
+           min-height: 1000px;
+            background-color: #fff;
+             margin: 50px ;
+              display: grid;
+               grid-template-columns: 1fr 2fr;
+                box-shadow: 0 35px 55px black;
+    }
+
+
+.left{position: relative;
+padding:40px;
+background-color: rgb(168, 168, 168);}
+    
+
+
+
+
+.profil{
+    position: relative;
+     display: flex;
+      flex-direction: column;
+       align-items: center;
+        padding-bottom: 20px;
+         border-bottom: 1px solid rgb(95, 95, 95);
+          font-family:"Poppins",sans-serif
+}
+
+.profil .image{
+    position: relative;
+     width: 150px;
+      height: 150px;
+       border-radius: 75px;
+        overflow: hidden;
+         border: 1px solid rgb(14, 14, 14);
+
+}
+
+
+
+
+
+
+
+.info{text-align: center;
+ padding-top: 2px; 
+  font-family: "Poppins",sans-serif;
+   color: rgb(51, 51, 51);}
+
+
+
+
+
+  .adresse{border-top: 1px solid rgb(0, 0, 0);
+ font-size: large;
+font-family: "Poppins",sans-serif;}
+ 
+
+
+ .kontakt{text-align: left;
+font-family: "Poppins",sans-serif;}
+
+.kontakt a{text-decoration: underline;
+color: rgb(83, 83, 83);}
+
+.pc ul li{font-family:"Poppins",sans-serif ;}
+.pc{font-family: "Poppins",sans-serif;}
+
+
+.Hobbys{font-family:"Poppins",sans-serif ;}
+
+
+
+
+.school{border-left: 1px solid rgb(54, 54, 54);
+width: auto; height: auto; 
+margin: 10px 0 0 90px; 
+padding-left: 25px;
+font-family:"Poppins",sans-serif ; 
+background-color: whitesmoke;}
+
+.school a{color: rgb(92, 92, 92) ;}
+
+.date{font-size: larger;
+font-family: Bahnschrift ;
+}
+
+
+.language{margin: 5px 0 0 90px;
+border-left: 1px solid rgb(46, 46, 46); 
+padding-left: 15px;
+font-family: "Poppins",sans-serif;
+background-color: whitesmoke;
+color: rgb(63, 63, 63);}
+
+
+
+
+.social{font-family:"Poppins",sans-serif ;
+         border-left: 1px solid rgb(85, 85, 85);
+          background-color: whitesmoke;
+           margin: 0 0 0 90px;
+            padding-left: 15px; 
+             color: rgb(63, 63, 63);
+              }
+
+
+
